@@ -5,16 +5,7 @@ import ThesisExplorer from "@/components/ThesisExplorer";
 import ArchitectureExplainer from "@/components/ArchitectureExplainer";
 import PositioningExplorer from "@/components/PositioningExplorer";
 import RouteStory from "@/components/RouteStory";
-
-const ROSTER = [
-  { name: "Ted Stockwell", role: "Founder & CEO" },
-  { name: "Michelle Holtmann", role: "President & Chief Strategy Officer" },
-  { name: "Steve Jahnke", role: "CTO / Principal Architect" },
-  { name: "Laverne Masaki", role: "Chief People Officer" },
-  { name: "Vincent E. Elfving", role: "Chief Quantum Advisor" },
-  { name: "Rick Jahnke", role: "Principal Engineer" },
-  { name: "Ruben Marroquin", role: "Senior Engineer" },
-];
+import { ROSTER } from "@/lib/team-data";
 
 export default function Home() {
   return (
